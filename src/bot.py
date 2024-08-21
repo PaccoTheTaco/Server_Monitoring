@@ -21,8 +21,12 @@ async def on_ready():
 
 async def main():
     await bot.load_extension("cpu")
+    await bot.load_extension("diskusage")
+    await bot.load_extension("netstat")
+    await bot.load_extension("processes")
     await bot.load_extension("ram")
     await bot.load_extension("systemload")
+    await bot.load_extension("uptime")
     await bot.start(TOKEN)
 
 asyncio.run(main())
