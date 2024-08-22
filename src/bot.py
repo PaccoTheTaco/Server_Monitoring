@@ -27,6 +27,7 @@ async def main():
     await bot.load_extension("ram")
     await bot.load_extension("systemload")
     await bot.load_extension("uptime")
+    await bot.load_extension("who")
     await bot.start(TOKEN)
 
 asyncio.run(main())
