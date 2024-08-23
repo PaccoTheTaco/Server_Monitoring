@@ -12,6 +12,7 @@ Um den Bot selber nutzen zu können müssen folgende Schritte befolgt werden:
 ---------------------
 
 English version:
+
 To be able to use the bot yourself, the following steps must be followed:
 - copy the complete folder ‘src’ to your server 
 - create a file called ‘.env’ in the folder and write ‘DISCORD_TOKEN=’ and then your Discordbot token behind it
