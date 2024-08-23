@@ -9,9 +9,9 @@ class RAM(commands.Cog):
     @discord.app_commands.command(name="ram", description="Zeigt die aktuelle RAM-Auslastung an.")
     async def ram_command(self, interaction: discord.Interaction):
         memory = psutil.virtual_memory()
+        ram_usage = memory.percent
         total_memory = memory.total
         used_memory = round(total_memory * (ram_usage / 100))
-        ram_usage = memory.percent
 
         if total_memory >= 2**30:
             total_memory_str = f"{total_memory / (2**30):.2f} GB"
