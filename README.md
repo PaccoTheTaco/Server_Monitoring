@@ -90,15 +90,15 @@ Here are a few insights into the Slack app:
 
 /ram: 
 
-[RAM](example_pics/slack_RAM.png)
+![RAM](example_pics/slack_RAM.png)
 
 /cpu:
 
-[CPU](example_pics/slack_CPU.png)
+![CPU](example_pics/slack_CPU.png)
 
 /diskusage
 
-[uptime](example_pics/diskusage.png)
+![uptime](example_pics/diskusage.png)
 
 - download the Slack App zip file from the [releases page](https://github.com/PaccoTheTaco/Server_Monitoring/releases)
 - unzip it and move it to your server in a folder of your choice
