@@ -8,15 +8,15 @@ Ein paar Einblicke von dem Discordbot erhälst du hier:
 
 /ram: 
 
-[RAM](example_pics/RAM.png)
+![RAM](example_pics/RAM.png)
 
 /cpu:
 
-[CPU](example_pics/CPU.png)
+![CPU](example_pics/CPU.png)
 
 /uptime
 
-[uptime](example_pics/uptime.png)
+![uptime](example_pics/uptime.png)
 
 Um den Bot selber nutzen zu können müssen folgende Schritte befolgt werden:
 - lade die die Discord Bot zip Datei von der [Releases-Seite](https://github.com/PaccoTheTaco/Server_Monitoring/releases) herunter
@@ -35,15 +35,15 @@ Hier sind ein paar Einblicke zu der Slack App:
 
 /ram: 
 
-[RAM](example_pics/slack_RAM.png)
+![RAM](example_pics/slack_RAM.png)
 
 /cpu:
 
-[CPU](example_pics/slack_CPU.png)
+![CPU](example_pics/slack_CPU.png)
 
 /diskusage
 
-[uptime](example_pics/diskusage.png)
+![uptime](example_pics/diskusage.png)
 
 - lade die die Slack App zip Datei von der [Releases-Seite](https://github.com/PaccoTheTaco/Server_Monitoring/releases) herunter
 - entpacke diese und schiebe sie auf deinen Server in einen Ordner deiner Wahl
@@ -63,15 +63,15 @@ You can get a few insights into the Discordbot here:
 
 /ram: 
 
-[RAM](example_pics/RAM.png)
+![RAM](example_pics/RAM.png)
 
 /cpu:
 
-[CPU](example_pics/CPU.png)
+![CPU](example_pics/CPU.png)
 
 /uptime
 
-[uptime](example_pics/uptime.png)
+![uptime](example_pics/uptime.png)
 
 To be able to use the bot yourself, the following steps must be followed:
 - download the Discord Bot zip file from the [Releases page](https://github.com/PaccoTheTaco/Server_Monitoring/releases)
