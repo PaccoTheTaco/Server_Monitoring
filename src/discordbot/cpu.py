@@ -1,4 +1,3 @@
-import asyncio
 import discord
 from discord.ext import commands
 import psutil
@@ -9,7 +8,7 @@ class CPU(commands.Cog):
 
     @discord.app_commands.command(name="cpu", description="Zeigt die aktuelle CPU-Auslastung an.")
     async def cpu_command(self, interaction: discord.Interaction):
-        cpu_usage = await asyncio.to_thread(psutil.cpu_percent, interval=1)
+        cpu_usage = psutil.cpu_percent(interval=1)
         embed = discord.Embed(title="CPU-Auslastung", description=f"Aktuelle CPU-Auslastung: {cpu_usage}%", color=discord.Color.red())
         await interaction.response.send_message(embed=embed)
 
